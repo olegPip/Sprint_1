@@ -1,6 +1,6 @@
 class Tester:
 
-    def __init__(self, name):  # Добавлени аргумент "self"
+    def __init__(self, name):  # Добавили аргумент "self"
         self.name = name       # Переменная сохранена  как атрибут обьекта через "self.name" 
                                # Удалена строка "deadline = True" так как статус дедлайна передается напрямую в метод "work_hard"
 
