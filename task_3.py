@@ -11,7 +11,7 @@ world_champions[2022] = "Аргентина"
 
 # Вывели всех чемпионов в формате год-страна
 for year, champiom in world_champions.items():
-    print(f"{year} - {champiom}")
+    print(f"{year}: {champiom}")
 
 country = "Италия"
 
