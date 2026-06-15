@@ -6,7 +6,7 @@ class Tester:
 
     def work_hard(self, deadline=True):
         if deadline:                         # Условие "if self.deadline:" измено на "if deadline" 
-            print(self.name, 'Что ж, часок поработаю!') # Теперь метод использует значение аргумента deadline, который передается при вызове (False для tester_1 и True для tester_2), а не ищет несуществующий атрибут внутри класса.
+            print(self.name, 'Что ж, часок ещё поработаю!') # Теперь метод использует значение аргумента deadline, который передается при вызове (False для tester_1 и True для tester_2), а не ищет несуществующий атрибут внутри класса.
         else:
             print(self.name, 'Можно отдыхать')
 
